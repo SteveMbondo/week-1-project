@@ -4,14 +4,18 @@ Challenge 1: Student Grade Generator (Toy Problem)
 Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below: 
 
         A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
-Write a function studentGrader which takes marks scored as an arguement. Using if else if statements loop to check marks against the score card. Expect grades to be assigned according to this grades list: A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40. The marks inputs must be between 0 - 100. If marks enter not within specified range log "Enter marks between 0 - 100"
+- Write a function studentGrader which takes marks scored as an arguement. 
+- Using if else if statements loop to check marks against the score card. 
+- Expect grades to be assigned according to this grades list: A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40. 
+- The marks inputs must be between 0 - 100.
+- If marks enter not within specified range log "Enter marks between 0 - 100"
 
 Challenge 2: Speed Detector (Toy Problem)
 
 Write a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
    > For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
-Creates a function to detect speed that takes speed as input
+- Creates a function to detect speed that takes speed as input
 - Uses if else if to loop through the conditions,
 - logs Ok if speeds below a speed limit of 70kph, 
 - Assigns a point for every 5kph, above the speed limit,
